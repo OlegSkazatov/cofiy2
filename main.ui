@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>894</width>
-    <height>642</height>
+    <width>1095</width>
+    <height>648</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -28,6 +28,9 @@
     </property>
     <attribute name="horizontalHeaderDefaultSectionSize">
      <number>142</number>
+    </attribute>
+    <attribute name="verticalHeaderDefaultSectionSize">
+     <number>70</number>
     </attribute>
     <column>
      <property name="text">
@@ -60,13 +63,39 @@
      </property>
     </column>
    </widget>
+   <widget class="QPushButton" name="button_Edit">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>20</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Изменить</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_Add">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>90</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Добавить</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>894</width>
+     <width>1095</width>
      <height>21</height>
     </rect>
    </property>
